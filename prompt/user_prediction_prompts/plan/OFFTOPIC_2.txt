@@ -1,0 +1,111 @@
+<example 2>
+<profile>
+## Knowledge
+- Your papers demonstrate a deep understanding of the historical evolution of specific model architectures, often tracing their lineage and incremental improvements.
+- Your papers show familiarity with the principles of scaling laws, focusing on how model performance predictably improves with increased compute, data, and model size.
+- Your papers indicate an intermediate-level understanding of Transformer architectures and their application beyond their original domain of natural language processing.
+- Your papers are well-versed in the nuances of various performance metrics and evaluation protocols, particularly for object detection and zero-shot learning.
+- Your papers regarding object detection seem less focused on the theoretical underpinnings compared to Transformer.
+
+## Research Style
+- Your papers favor large-scale empirical studies, often leveraging massive datasets to demonstrate the effectiveness of an approach.
+- Your papers consistently benchmark models across a wide and diverse range of datasets and tasks to test for generalization, rather than focusing on a single metric.
+- Your papers often prioritize computational efficiency and inference speed as first-class research objectives, alongside accuracy.
+- Your papers seem to adopt a system-building approach, focusing on integrating components into a single, cohesive, and often simplified architecture.
+- Your papers conduct extensive ablation studies to isolate the impact of different model components and hyperparameters, rather than just presenting a final result.
+
+## Writing Style
+- Your papers frequently use historical narrative to frame a problem, positioning new contributions against a backdrop of prior dominant paradigms.
+- Your papers have a tendency to create memorable, branded names and acronyms for models and concepts, which aids in their dissemination.
+- Your papers adopt a direct and assertive tone, clearly stating the shortcomings of previous work and the primary advantages of the proposed method.
+- Your papers often explain complex mechanisms by breaking them down into enumerated lists of components, changes, or advantages.
+- Your papers use analogies to make new or complex technical ideas more accessible, often by relating them to more familiar concepts.
+
+## Positions
+- Your papers argue that scaling up data and compute can be more important for achieving high performance than designing architectures with strong, task-specific inductive biases.
+- Your papers champion the unification of complex, multi-stage pipelines into simpler, more executable friendly trainable models.
+- Your papers assert that zero-shot transferability, enabled by natural language, is a crucial and more representative measure of a model's generalization capabilities than standard fine-tuning.
+- Your papers maintain that balancing inference speed and accuracy is a critical trade-off, rather than pursuing accuracy at any computational cost.
+- Your papers take the position that models should be evaluated on their ability to generalize to novel domains, not just on in-distribution test sets.
+
+## Audience
+- Your papers are written for practitioners and researchers interested in building and deploying scalable, real-world systems, not just for a purely academic audience.
+- Your papers address the broad machine learning community interested in foundational architectural paradigms that transcend specific tasks.
+- Your papers target researchers specifically focused on object detection, transfer learning and representation learning, providing extensive benchmarks and analysis for this sub-field.
+- Your papers speak to those concerned with the societal impacts and robustness of AI, an audience often unaddressed in purely technical papers.
+- Your papers are directed at the object detection and LLM research community, providing detailed surveys and foundational models for this specific area.
+</profile>
+
+<labeling 2a>
+
+<query>
+I work on YOLO-style object detectors for surveillance. Propose a plan to reduce false positives for small/low-contrast targets (e.g. fire, smoke) in nighttime footage. Include dataset augmentation strategies, loss/architecture tweaks to try, hyperparameter optimization. Assume a single GPU and a dataset of ~1k annotated frames.
+</query>
+
+<plan step>
+Frame solutions contrasting multi-stage vs single-shot approaches
+</plan step>
+
+<plan step category>
+Style: How the explanations in the response can be communicated
+</plan step category>
+
+<is_satisfied>
+false
+</is_satisfied>
+
+<explanation>
+The user deselected this step, judging it to be 'good but not crucial' for their needs, indicating it would only provide auxiliary information that is not that relevant. Thus, the plan step was too off topic for the user's query.
+</explanation>
+
+</labeling 2a>
+
+<labeling 2b>
+
+<query>
+How can vision-language models be used to generate artificial but realistic annotated training images for object detection tasks? Please outline (a) methods for generating images with accurate bounding boxes or segmentation masks, (b) validation strategies to ensure synthetic labels are correct, and (c) best practices for mixing synthetic and real data to improve detector generalization.
+</query>
+
+<plan step>
+Highlight quality-speed trade-offs
+</plan step>
+
+<plan step category>
+Research Ideas: How the response can become actionable for users' research goals
+</plan step category>
+
+<is_satisfied>
+true
+</is_satisfied>
+
+<explanation>
+The user selected this step, indicating that understanding the trade-offs between data quality and generation speed was relevant to their query. Thus, the plan step was relevant for the user's query.
+</explanation>
+
+</labeling 2b>
+
+<labeling 2c>
+
+<query>
+I work on YOLO-style object detectors for surveillance. Propose a plan to reduce false positives for small/low-contrast targets (e.g. fire, smoke) in nighttime footage. Include dataset augmentation strategies, loss/architecture tweaks to try, hyperparameter optimization. Assume a single GPU and a dataset of ~1k annotated frames.
+</query>
+
+<plan step>
+Focus on surveillance-specific evaluation datasets
+</plan step>
+
+<plan step category>
+Content: How the response can be clarified and narrowed in scope
+</plan step category>
+
+<is_satisfied>
+true
+</is_satisfied>
+
+<explanation>
+The user selected this step. Even though 'surveillance' was in their query, they found it helpful for the system to confirm this focus, viewing it as a good way to ensure alignment. Thus, the plan step was relevant for the user's query.
+</explanation>
+
+</labeling 2c>
+
+</example 2>

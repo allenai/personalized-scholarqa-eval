@@ -1,0 +1,109 @@
+<example 1>
+<response>
+## Introduction: FFNs as Key-Value Memory Systems
+Feed-Forward Networks (FFNs) serve as the primary knowledge storage components in transformer models, functioning as sophisticated key-value memory systems that store factual information, semantic relationships, and linguistic patterns. These networks operate through embedding projections, where the first linear layer projects input tokens into a higher-dimensional space that activates specific knowledge neurons, and the second layer projects back to create output representations that promote relevant concepts in the vocabulary.
+Unlike attention mechanisms that focus on relating different positions in a sequence, FFNs function as static memory banks that can be queried based on input patterns. Research demonstrates that FFNs in language models store various types of knowledge including factual associations (like "Paris is the capital of France"), semantic categories (such as grouping animals or professions), and syntactic patterns that help with language understanding tasks. The key-value memory framework helps explain how these networks can both store vast amounts of information and retrieve relevant knowledge when specific input patterns activate the appropriate pathways.
+
+## Types of Knowledge and Concepts Stored in FFNs
+FFNs store knowledge in a hierarchical manner across different layers, with lower layers capturing shallow patterns and upper layers learning more semantic ones (Geva et al., 2020) (Wallat et al., 2023). This layered organization allows the networks to process information from basic textual patterns to complex semantic relationships that support language understanding tasks. The knowledge storage follows a pattern where shallow input patterns trigger key neurons in lower layers, while more sophisticated semantic concepts are encoded in upper layers (Wallat et al., 2023) (Zhang et al., 2024).
+Factual knowledge represents a major category of information stored in FFNs, with research focusing on relational facts due to their specificity and ease of evaluation (Dai et al., 2021) (Juneja et al., 2022) (Dai et al., 2022). These factual associations include relationships like "Paris is the capital of France" or "Eiffel Tower is located in Paris," which are stored as key-value pairs that can be retrieved when relevant input patterns are detected (Qiu et al., 2024) (Wei et al., 2024). Studies using causal tracing demonstrate that factual knowledge is primarily stored in the early-layer and middle-layer FFNs (Wang et al., 2023) (Liu et al., 2024) (Deng et al., 2025), with specific neurons activating in response to particular facts (Dai et al., 2021) (Sharma et al., 2025).
+Beyond factual information, FFNs encode various types of semantic and syntactic knowledge including human-interpretable concepts like "breakfast" or "pronouns," as well as linguistic patterns that support language processing (Geva et al., 2022) (Rai et al., 2024). The networks contain specialized neurons for specific functions, such as arithmetic neurons for mathematical operations and entropy neurons for information processing (Rai et al., 2024). Value vectors in FFNs often embody interpretable concepts and knowledge that can be intensified or attenuated through specific manipulations (Zhang et al., 2024) (Shen et al., 2025), allowing the model to promote relevant tokens in the output vocabulary distribution (Geva et al., 2022) (Kaplan et al., 2024).
+
+## Functional Mechanisms: How FFNs Operate Through Knowledge Neurons and Concept Promotion
+FFNs operate through a sophisticated embedding projection mechanism where the first linear layer serves as keys that correlate with textual patterns, activating specific intermediate neurons, while the second layer functions as values that integrate these activations through weighted summation to update token representations (Donahue et al., 2019) (Geva et al., 2020) (Dai et al., 2021) (Dai et al., 2022). This two-step process allows FFNs to detect input patterns and retrieve corresponding knowledge, with the final output representing a weighted sum of activated value vectors that concentrate probability mass on tokens likely to appear after specific patterns (Geva et al., 2020) (Wang et al., 2023) (Wei et al., 2023) (Qiu et al., 2024).
+The concept of knowledge neurons represents a breakthrough in understanding how factual information is localized within FFNs. Knowledge neurons are specific intermediate neurons in the feed-forward networks that activate when processing factual prompts, with their activation levels positively correlated to the expression of corresponding facts (Dai et al., 2021) (Yao et al., 2022) (Vijayakumar, 2023) (Zheng et al., 2023) (Wei et al., 2024) (Wang et al., 2024). Research demonstrates that these neurons can be identified using attribution methods like integrated gradients, which measure each neuron's contribution to knowledge predictions by assigning attribution scores (Sajjad et al., 2021) (Vijayakumar, 2023) (Lindsay, 2023). Studies show that manipulating as few as four neurons can control the expression of specific knowledge, highlighting the precision of this localization mechanism (Lindsay, 2023).
+Causal tracing reveals that factual knowledge recall follows a three-step process: subject enrichment in early-to-middle FFN layers, relation propagation through attention mechanisms, and attribute extraction in later layers (Hakimi et al., 2025) (Deng et al., 2025). The embedding projection framework shows that when processing queries like "Eiffel Tower is located in," specific key neurons activate, allowing corresponding value vectors to promote tokens like "Paris" in the output distribution while deactivating irrelevant concepts (Qiu et al., 2024) (Shen et al., 2025). This mechanism enables direct knowledge editing by modifying FFN parameters without requiring fine-tuning, as the activation patterns provide precise control over factual expression (Yao et al., 2022) (Zheng et al., 2023) (Mazzia et al., 2023).
+Recent advances reveal additional complexity in FFN knowledge storage, including the discovery of language-independent knowledge neurons that store facts across multiple languages and degenerate knowledge neurons where different neurons store identical facts, providing robustness through functional overlap (Chen et al., 2023) (Dang et al., 2024). The residual stream perspective shows that FFN updates can be decomposed into sub-updates, each corresponding to weighted value parameter vectors that encode human-interpretable concepts and make incremental contributions to the model's final output distribution (Shen et al., 2025) (Cao et al., 2025).
+
+## FFN Challenges and Limitations
+
+Polysemantic Neuron Problem: Individual neurons in FFNs often encode multiple unrelated concepts simultaneously, a phenomenon known as polysemanticity, which results from the necessary superposition of distributed features within the latent space (Pichat et al., 2025). This creates challenges for interpretability as neurons cannot be easily mapped to single, coherent concepts.
+Knowledge Density vs. Retrieval Precision Tradeoff: FFNs face a fundamental tradeoff between knowledge density (amount of information stored) and retrieval precision (specificity of memory access), where lower retrieval precision encourages polysemantic key-value memory systems that can store multiple unrelated facts under the same key space (Zhong et al., 2025). While this superposition allows more compressed knowledge to fit into fixed-width memory, it comes at the cost of noisier recall.
+Semantic Fragmentation: Unstructured FFN weights can lead to semantic fragmentation where information becomes scattered across tokens, combined with transient neural activations that cause information to fade over time, jointly undermining coherence in long context understanding (Li et al., 2025). This fragmentation poses particular challenges for maintaining semantic consistency across extended sequences.
+Geometric Complexity: The internal structure of FFN neurons can be understood as categorical vector spaces with non-orthogonal basis vectors, composed of categorical sub-dimensions extracted from preceding layers, creating complex geometric relationships that complicate analysis and modification (Pichat et al., 2025).
+Static Memory Limitations: Unlike attention mechanisms that can dynamically focus on relevant context, FFNs must distill the entire training corpus into static weights, making them less adaptable to novel contexts or dynamic information needs.
+
+
+## Novel FFN Analysis Methodologies
+
+Attribution-Based Knowledge Neuron Identification: Dai et al. introduced the foundational concept of knowledge neurons and developed an attribution-based method using integrated gradients to identify salient neurons that express relational facts (Sajjad et al., 2021) (Vijayakumar, 2023) (Cao et al., 2023). This approach evaluates each neuron's contribution to knowledge predictions by assigning attribution scores, with higher gradient scores indicating neurons that contribute more to factual expressions (Vijayakumar, 2023) (Lindsay, 2023). The method demonstrates that knowledge neurons' activation levels positively correlate with the expression of corresponding facts (Mazzia et al., 2023) (Dang et al., 2024).
+Causal Tracing and Mediation Analysis: Meng et al. developed causal tracing methodology to measure the indirect impact of hidden states and identify neurons with the strongest causal effect on factual knowledge prediction (Cao et al., 2023) (Wang et al., 2023) (Lindsay, 2023). This technique uses causal mediation analysis to identify important neurons as those whose activity restores accurate model output when given corrupted inputs, revealing that mid-layer feed-forward modules play decisive roles in factual knowledge representation (Cao et al., 2023) (Lindsay, 2023) (Wei et al., 2023).
+Forward Composition Propagation (FCP): The FCP algorithm provides a structured approach to explain feed-forward network predictions by associating each neuron with an N-dimensional composition vector that expresses the role of each problem feature in that neuron (Grau et al., 2021). These vectors indicate whether features excite or inhibit neurons through direction and quantify impact strength through magnitude, offering detailed insight into neural processing mechanisms (Grau et al., 2021).
+Multilingual Knowledge Neuron Analysis: Chen et al. expanded knowledge neuron research by proposing the AMIG (gradient-based detection method) to identify neurons storing specific knowledge in multilingual models (Dang et al., 2024). This methodology categorizes knowledge neurons into language-independent neurons and degenerate neurons, determining whether stored knowledge is shared across languages or language-specific (Dang et al., 2024).
+LPIP Method for Query-Value Neuron Identification: The Log Probability and Inner Products (LPIP) method represents a static approach designed to identify critical neurons contributing to factual predictions, introducing a complementary method to identify "query neurons" that activate "value neurons" (Su et al., 2025). This enhances understanding of knowledge storage mechanisms in both attention and FFN layers (Su et al., 2025).
+Direct Parameter Modification Techniques: Research has developed knowledge surgery methods that enable direct modification of FFN parameters to control factual expression without requiring fine-tuning (Mazzia et al., 2023) (Wei et al., 2023). These techniques demonstrate that manipulating as few as four neurons can control specific knowledge expression, enabling precise factual editing through targeted parameter adjustments (Lindsay, 2023) (Dang et al., 2024).
+</response>
+
+<labeling 1a>
+
+<query>
+Across these papers, Feed-Forward Networks are described as crucial for information. How do different papers explain what types of knowledge or concepts FFNs store (like facts, general semantic categories)? And how do they function, through identifiable neurons or promoting concepts in the vocabulary?
+</query>
+
+<plan step>
+Outline FFNs storing factual knowledge.
+</plan step>
+
+<plan step category>
+Content: How the response can be clarified and narrowed in scope
+</plan step category>
+
+<is_satisfied>
+false
+</is_satisfied>
+
+<explanation>
+The user found the content of this section to be accurate and well-mapped to the plan step. However, they expressed a preference for bullet points over paragraphs for better readability. Thus, the system presented the part of the response related to this plan step poorly.
+</explanation>
+
+</labeling 1a>
+
+<labeling 1b>
+
+<query>
+Describe the different causal intervention methods used in transformer interpretability papers. What specific model mechanisms, unexpected behaviors, or influences on predictions did these methods reveal?
+</query>
+
+<plan step>
+Clarify causal discovery vs intervention.
+</plan step>
+
+<plan step category>
+Specificity: What information the response can include
+</plan step category>
+
+<is_satisfied>
+true
+</is_satisfied>
+
+<explanation>
+The user was very satisfied with this section, noting it was 'something I was looking forward to' and that the quality was 'good.' Thus, the system presented the part of the response related to this plan step well.
+</explanation>
+
+</labeling 1b>
+
+<labeling 1c>
+
+<query>
+Describe the different causal intervention methods used in transformer interpretability papers. What specific model mechanisms, unexpected behaviors, or influences on predictions did these methods reveal?
+</query>
+
+<plan step>
+Include path patching and causal basis in search.
+</plan step>
+
+<plan step category>
+Content: How the response can be clarified and narrowed in scope
+</plan step category>
+
+<is_satisfied>
+true
+</is_satisfied>
+
+<explanation>
+The user was satisfied with how this step was executed in the response. Thus, the system presented the part of the response related to this plan step well.
+</explanation>
+
+</labeling 1c>
+
+</example 1>

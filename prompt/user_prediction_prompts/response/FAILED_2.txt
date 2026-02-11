@@ -1,0 +1,104 @@
+<example 2>
+<response>
+## Introduction
+For academic graph ML researchers, implementing federated learning across heterogeneous graph types represents a significant departure from conventional federated learning paradigms that assume similar data distributions across clients. The structural heterogeneity challenge emerges when one client holds molecular graphs with specific chemical bond patterns, another maintains knowledge graphs with entity-relationship structures, and yet another possesses social network graphs with different connectivity patterns.
+This multi-graph federated learning scenario introduces several core technical challenges that distinguish it from standard federated approaches. First, the graph neural network architectures must accommodate fundamentally different graph structures and node/edge feature spaces across clients. Second, the aggregation mechanisms need to extract transferable knowledge despite structural differences in the underlying graph representations.
+The heterogeneous non-IID nature of this problem extends beyond traditional statistical heterogeneity to include structural heterogeneity, where clients not only have different data distributions but entirely different graph schemas and topological properties. This requires novel federated learning frameworks that can learn meaningful representations across diverse graph domains while preserving the privacy and autonomy of each participating entity.
+
+## Heterogeneous Non-IID Challenges
+For academic graph ML researchers, the heterogeneous non-IID nature of multi-graph federated learning creates several distinct categories of challenges that go beyond conventional federated learning assumptions. Traditional federated graph learning approaches often make restrictive assumptions where clients share the same nodes but differ only in features and edges, or have identical structures but different labels. However, real-world scenarios commonly involve clients with completely different nodes, features, edges, and labels, with only minimal overlapping elements.
+The severe non-IID nature manifests through diverse node and edge structures that vary dramatically across different domains (Wang et al., 2024). When one client holds molecular graphs and another maintains knowledge graphs, the structural heterogeneity encompasses not just different connectivity patterns but fundamentally different semantic meanings of nodes and relationships. This heterogeneous graph data distribution creates additional complexity layers including relation heterogeneity, where different clients structure and interpret relationships in domain-specific ways (Li et al., 2024).
+The challenge becomes more complex when considering that meta-paths within heterogeneous graphs carry specific semantic information, leading to semantic heterogeneity among clients that complicates the design of effective federated learning algorithms (Li et al., 2024). Current approaches like FedDAD attempt to address these issues by integrating Graph Attention Networks to capture relationship variety across diverse client distributions, but the fundamental challenge remains in handling structural and feature distribution differences among client subgraphs (Zhang et al., 2024) (Liu et al., 2025). This requires academic researchers to develop optimized global strategies that can adapt to heterogeneous subgraphs while mitigating the negative impact of distribution imbalance on model performance (Liu et al., 2025).
+
+## Federated Learning Architectures for Graph Heterogeneity
+For academic graph ML researchers, the architectural landscape for heterogeneous graph federated learning has evolved beyond traditional global model aggregation approaches to embrace more flexible paradigms. The FED-PUB framework represents a shift toward personalized subgraph federated learning, which focuses on joint improvement of interrelated local GNNs rather than learning a single global model, specifically addressing the structural incompatibility between different graph communities (Baek et al., 2022). This approach uses functional embeddings of local GNNs with random graphs as inputs to compute similarities between clients, enabling weighted averaging for server-side aggregation while learning personalized sparse masks to select subgraph-relevant parameters (Baek et al., 2022).
+Parameter decoupling emerges as a fundamental architectural strategy for handling completely heterogeneous federated learning scenarios, where clients possess different feature spaces and sample ID spaces without overlap requirements (Liu et al., 2022). This approach reserves non-shared model parameters for heterogeneous datasets while combining decoupling with knowledge distillation algorithms to hide most model architecture and parameters from other participants (Liu et al., 2022). Alternative architectural solutions include hypernetworks that create individualized weights for each client using client embeddings, with graph hypernetworks operating specifically on graph representations of client architectures (Ghilea et al., 2023).
+Academic researchers have also developed prompt-based architectural frameworks to address task and data heterogeneity simultaneously. The FedGPL framework establishes a split architecture that achieves universal graph representation and personalized graph prompting to preserve both global and local knowledge (Guo et al., 2024). This includes a Hierarchical Directed Transfer Aggregator (HiDTA) on the server side for asymmetric knowledge sharing among task-heterogeneous participants, and Virtual Prompt Graph (VPG) modules on the client side for adaptive graph data augmentation (Guo et al., 2024). The FedGFM+ framework further extends this concept with anchor-based domain-aware initialization using domain-specific prototypes and adaptive domain-sensitive prompt pools that enable graph foundation models to select relevant prompts for different target domains (Zhu et al., 2025).
+
+## Parameter Decoupling and Knowledge Sharing Strategies
+For academic graph ML researchers, parameter decoupling represents a fundamental strategy for handling completely heterogeneous federated learning scenarios where clients possess different feature spaces and sample ID spaces without any overlap requirements (Liu et al., 2022). This approach reserves non-shared model parameters for heterogeneous datasets while combining decoupling with knowledge distillation algorithms to hide most model architecture and parameters from other participants, enabling federated learning across molecular graphs, knowledge graphs, and other structurally distinct domains (Liu et al., 2022).
+The FedStar framework introduces structure-feature decoupling as a core strategy, where structure embeddings are encoded with an independent structure encoder that is shared across clients while feature-based knowledge is learned in a personalized way (Tan et al., 2022). This design enables the capture of domain-invariant structural information while avoiding feature misalignment issues that commonly arise when different graph types have incompatible node and edge attributes (Tan et al., 2022). The approach explicitly extracts structural information rather than encoding it along with node features, making it particularly suitable for scenarios where one client holds molecular graphs with chemical bond structures and another maintains knowledge graphs with entity-relationship patterns (Tan et al., 2022).
+For heterogeneous graph neural networks, the FedHGN framework employs schema-weight decoupling to enable schema-agnostic knowledge sharing without requiring entity or relation matching between clients (Fu et al., 2023). This approach addresses the challenge of graph schemas - special metadata in heterogeneous graphs - by decoupling schema-specific weights from shared knowledge components (Fu et al., 2023). The framework reduces privacy concerns and human labor by eliminating the need for schema matching, making it compatible with almost any heterogeneous graph neural network architecture (Fu et al., 2023).
+Academic researchers have also developed multi-view approaches where autoencoders built on heterogeneous graph neural networks are employed for feature extraction at each client site, with heterogeneous features from overlapping samples aggregated into global feature representations at the server level (Yan et al., 2024). This FIM-GNNs approach demonstrates how local training with heterogeneous GNNs combined with global aggregation can effectively harness complementary information across different graph domains (Yan et al., 2024).
+
+## Domain-Specific Implementations and Applications
+For academic graph ML researchers, domain-specific implementations reveal how federated learning frameworks adapt to handle the structural heterogeneity inherent in different graph types across various application domains. Knowledge graph federated learning represents one of the most developed application areas, where generalized federated knowledge graph embedding frameworks have been developed that can be applied across multiple knowledge graph embedding algorithms (Zhang et al., 2022). This enables entities with different knowledge domains - such as medical knowledge graphs, product recommendation graphs, and academic citation networks - to collaborate while preserving their proprietary schema structures.
+The FedGraphNN unified framework demonstrates how distributed graph scenarios handle both single partitioned graphs and multiple dispersed graphs across edge servers that cannot be centralized due to privacy or regulatory restrictions (He et al., 2021). In this framework, each of the K clients maintains its own dataset with distinct graphs, vertex and edge feature sets, and label structures, enabling collaborative training to formulate more powerful and generalizable graph models across domains (He et al., 2021). This approach directly addresses scenarios where one client holds molecular datasets while another maintains knowledge graphs, as each client owns a GNN model tailored to learn representations specific to their graph type (He et al., 2021).
+Academic researchers have identified that federated graph learning applications extend across social networks, medical, and biological data domains, where complicated non-IID graph data widely exists and requires specialized handling approaches (Cai et al., 2024). The PFGNN framework specifically addresses this by implementing graph similarity strategies that cluster clients with similar structural features for collaborative training, recognizing that graph data across different clients exhibit varying degrees of heterogeneity in both structure and node features, making them generally non-IID in nature (Liu et al., 2024). This enables the framework to handle various non-Euclidean structured data types while maintaining privacy preservation (Liu et al., 2024).
+Heterogeneous graph applications introduce additional complexity through relation heterogeneity, where different clients structure and interpret relationships in domain-specific ways (Li et al., 2024). Real-world scenarios including social networks and recommendation systems benefit from these implementations, as heterogeneous graphs provide more comprehensive representations of complex systems with diverse information and richer semantics compared to homogeneous graphs (Li et al., 2024). The semantic heterogeneity arising from different meta-path interpretations across clients further complicates algorithm design but enables more sophisticated cross-domain knowledge transfer (Li et al., 2024).
+Graph-level federated learning applications focus on scenarios where each client collects multiple graphs for classification tasks, with frameworks like GCFL+ addressing multi-domain settings through GNN gradient pattern-aware techniques for dynamic client clustering (Zhu et al., 2024). Advanced implementations include federated graph foundation models with topology optimization, such as FedGTA which enhances learning through topology-aware local smoothing and mixed neighbor features, and TOFEL which optimizes aggregation topology for reduced energy consumption and latency (Fan et al., 2025). These approaches demonstrate scalable learning across distributed graph-structured data by optimizing client relationships for efficient information sharing (Fan et al., 2025).
+</response>
+
+<labeling 2a>
+
+<query>
+How can we implement a federated learning scenario in which each client holds a different type of graph? Say, one entity has molecules datasets, but the other entity has a knowledge graph dataset and so on.
+</query>
+
+<plan step>
+Include papers with open-source code
+</plan step>
+
+<plan step category>
+Research Ideas: How the response can become actionable for users' research goals
+</plan step category>
+
+<is_satisfied>
+false
+</is_satisfied>
+
+<explanation>
+The user rated this highly, calling it 'amazing.' Although the system cited a survey paper instead of the direct source, it successfully identified the correct paper (FedGTA) and its GitHub link. The only minor issue was the indirectness of the citation. Thus, the system failed to execute part of the instructions in the plan step, since it was unable to extract the open-source code.
+</explanation>
+
+</labeling 2a>
+
+<labeling 2b>
+
+<query>
+What are the open problems and challenges in the field of generative models that work over discrete and structured data?
+</query>
+
+<plan step>
+Suggest evaluations for structured generative models
+</plan step>
+
+<plan step category>
+Research Ideas: How the response can become actionable for users' research goals
+</plan step category>
+
+<is_satisfied>
+true
+</is_satisfied>
+
+<explanation>
+The user was satisfied with this, even though the system didn't find established evaluation methods. They interpreted this as a successful confirmation that it is an 'open problem,' which is what they wanted to know. The system's suggestions were also helpful. Thus, the system did not fail to complete this step.
+</explanation>
+
+</labeling 2b>
+
+<labeling 2c>
+
+<query>
+How can we implement a federated learning scenario in which each client holds a different type of graph? Say, one entity has molecules datasets, but the other entity has a knowledge graph dataset and so on.
+</query>
+
+<plan step>
+Focus on structural graph heterogeneity
+</plan step>
+
+<plan step category>
+Specificity: What information the response can include
+</plan step category>
+
+<is_satisfied>
+true
+</is_satisfied>
+
+<explanation>
+The user was very impressed with the 'amazing' focus of the response. The system found a highly relevant paper and provided a good implementation strategy that directly addressed the query. Thus, the system did not fail to complete this step.
+</explanation>
+
+</labeling 2c>
+
+</example 2>

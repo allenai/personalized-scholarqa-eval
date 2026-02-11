@@ -1,0 +1,163 @@
+<example 1>
+<response>
+## Introduction
+Generative models that operate over discrete and structured data represent a fundamentally different challenge compared to their continuous counterparts. While generative models for continuous data like images have seen remarkable progress with diffusion models and GANs, discrete structures such as graphs, sequences, trees, and molecular representations introduce unique computational and theoretical obstacles that require specialized approaches.
+The importance of these models spans critical real-world applications: drug discovery requires generating valid molecular structures, program synthesis demands syntactically correct code generation, social network analysis needs realistic graph structures, and natural language processing relies on coherent text generation. However, the discrete nature of these domains creates several fundamental barriers.
+The field faces both theoretical and practical open problems. Theoretically, the non-differentiable nature of discrete spaces makes standard gradient-based optimization challenging, while combinatorial explosion in structured spaces creates intractable search problems. Practically, ensuring generated structures satisfy domain constraints, developing appropriate evaluation metrics, and scaling to realistic problem sizes remain significant hurdles.
+Understanding these core challenges is essential before examining recent progress in the field. The discrete optimization landscape, constraint satisfaction requirements, and evaluation difficulties create a complex research environment where traditional continuous methods often fail, necessitating novel algorithmic and theoretical developments.
+
+## Core Challenges in Discrete and Structured Generative Models
+The theoretical challenges in discrete generative modeling center on the fundamental incompatibility between discrete structures and gradient-based optimization. Generative adversarial networks, which work effectively for continuous data like images, cannot be directly applied to discrete structured data such as text sequences or discretized images because sampling from discrete distributions is non-differentiable, making backpropagation impossible (Zhao et al., 2017) (Badu-Marfo et al., 2020) (Camino et al., 2020). This creates a core theoretical barrier where standard machine learning techniques designed for continuously differentiable objective functions become unsuitable for discrete graph structures and other structured data (Minello et al., 2024) (Simonovsky, 2019).
+Practical challenges emerge from the combinatorial explosion inherent in discrete spaces. High-dimensional discrete distributions feature rapid combinatorial growth of modes that can be well-separated from each other, posing significant challenges for Markov Chain Monte Carlo methods due to slow mixing between modes (Zhang et al., 2022). For graph generation specifically, this manifests in the non-uniqueness problem where a graph with n nodes can have up to n! equivalent adjacency matrix representations, and the output space grows quadratically with node count, quickly becoming a bottleneck for applications like social network analysis (Minello et al., 2024).
+Likelihood computation presents another fundamental barrier across multiple model types. Exact likelihood computation is often intractable, requiring surrogate objectives or variational inference approximations, while trained models need expensive iterative procedures for inference and sampling (Lu et al., 2019). This computational intractability extends to energy-based models, which suffer from mixing issues when generating negative samples, leading to spurious mode problems where new modes appear that don't occur in the true data distribution (Zhang et al., 2022).
+The core challenges can be summarized as:
+
+Non-differentiability: Discrete sampling operations break gradient flow, preventing direct application of backpropagation-based training methods (Zhao et al., 2017) (Badu-Marfo et al., 2020) (Camino et al., 2020) (Gan et al., 2024)
+Representation ambiguity: Multiple equivalent representations (e.g., n! adjacency matrices for the same graph) complicate probability assignment (Minello et al., 2024)
+Combinatorial explosion: Exponential growth in possible configurations makes exhaustive modeling intractable (Zhang et al., 2022) (Minello et al., 2024)
+Constraint satisfaction: Generated structures must satisfy domain-specific syntax and semantic requirements (Dai et al., 2018)
+Dependency modeling: Capturing complex inter-dimensional correlations while avoiding exponential computational costs (Anil et al., 2025) (Chen et al., 2025)
+
+Modern approaches like diffusion models face additional theoretical limitations when extended to discrete spaces. Designing appropriate forward processes for discrete diffusion requires sophisticated transition kernel design to hit ideal stationary distributions, which remain unclear in discrete settings (Davis et al., 2024) (Rissanen et al., 2024). Many discrete diffusion approaches sacrifice inter-dimensional correlations by computing transition probabilities independently for each dimension, degrading distribution fitting quality (Chen et al., 2025).
+These challenges have direct implications for critical applications: drug discovery requires valid molecular structures that satisfy chemical constraints, program synthesis demands syntactically correct code generation, and controllable generation tasks need efficient frameworks that work without task-specific fine-tuning (Guo et al., 2024) (Tang et al., 2025) (Dai et al., 2018). The field continues to grapple with developing methods that can directly learn from observed structured data while maintaining both theoretical rigor and practical efficiency (You et al., 2018).
+
+## Specific Challenges by Data Type
+Graph generation faces several domain-specific challenges that impact critical applications like social network analysis and molecular design. The theoretical problem of non-unique representations manifests as n! possible adjacency matrices for a single n-node graph, creating probability assignment ambiguities (Minello et al., 2024). Practical scalability issues emerge as most existing methods focus on small graphs with dozens to thousands of nodes, while real-world networks like the Internet and biological neuronal networks contain millions to billions of nodes (Guo et al., 2020). Domain-specific validity constraints add another layer of complexity: molecular graphs must respect atomic valency rules, while protein interaction networks require connections only between functionally related proteins (Guo et al., 2020).
+Key graph generation challenges include:
+
+Representation non-uniqueness: Multiple equivalent adjacency matrices for identical graphs complicate probability modeling (Minello et al., 2024)
+Quadratic output space: Space grows quadratically with node count, creating scalability bottlenecks (Minello et al., 2024)
+Dependency modeling: Capturing node-edge relationships and structural patterns like common neighbors in social networks (Minello et al., 2024)
+Discrete constraint enforcement: Non-differentiable validity requirements that resist smooth relaxation (Guo et al., 2020)
+
+Molecular generation presents unique theoretical and practical barriers beyond general graph challenges. Applications in drug discovery require models to generate chemically valid molecular structures while satisfying complex bonding rules and 3D spatial constraints (Pang et al., 2023). Current approaches suffer from the discrete distribution problem: dequantization methods that add real-valued noise to make discrete molecular graphs compatible with continuous latent variable models prevent accurate capture of the original discrete distribution (Luo et al., 2021). The field lacks comprehensive databases, missing 3D structural information in molecular representations, and high-precision evaluation metrics for assessing generated molecules (Pang et al., 2023).
+Protein structure generation faces additional complexity in representing multi-view structural information for applications in structural biology and drug design. Traditional generative models struggle with protein distance matrices, which require maintaining accurate geometric relationships and capturing complex structural patterns (Sehsah et al., 2025). VAEs face challenges generating highly realistic samples for complex protein distributions, while GANs encounter training instability and vanishing gradients (Sehsah et al., 2025). Hybrid approaches like VAEGAN struggle to balance reconstruction accuracy with adversarial training, affecting their ability to create realistic samples with the precise structural details required for protein modeling (Sehsah et al., 2025).
+Tabular data generation presents fundamentally different theoretical challenges compared to other structured data types. The lack of local structure distinguishes tabular data from image, audio, or text domains, making it difficult for generative models to learn feature relationships (Manousakas et al., 2023). The co-existence of categorical and numerical features creates joint distribution learning challenges, while feature missingness and high data scarcity compound the modeling difficulty (Manousakas et al., 2023). Dependency modeling between different features remains the key challenge, with modified GANs and VAEs struggling to capture categorical distributions effectively (Borisov et al., 2021). Novel architectures like diffusion models have not been successfully adapted to tabular domains (Borisov et al., 2021).
+Sequential discrete data like addresses and structured text face specific challenges in capturing field correlations and mapping generated samples back to latent representations. VAEs with tree recursive architectures demonstrate limited capability in capturing correlations within structured address data, even after addressing posterior collapse through scheduled sampling and β-tuning (Chou et al., 2019). The practical problem manifests as VAE loss lagging or increasing during training, indicating difficulty in mapping generated samples to the learned latent space (Chou et al., 2019).
+Construction history non-uniqueness emerges as a cross-cutting theoretical challenge across multiple discrete domains. For applications in source code generation and molecular synthesis, multiple valid construction sequences can produce identical final objects, forcing generative models to reason about intractably large spaces of possible generation paths (Seff et al., 2019). This challenge becomes particularly acute in domains requiring controllable generation, where applications need efficient frameworks that work without extensive task-specific fine-tuning (Seff et al., 2019).
+
+## Recent Progress and Approaches
+The field has seen notable progress in extending successful continuous generative modeling techniques to discrete domains. Diffusion models, originally designed for continuous spaces like images and audio, have been successfully adapted to discrete state spaces for text and image segmentation, though they have not yet achieved competitive performance for large-scale text or image generation compared to autoregressive models (Austin et al., 2021). Recent advances in discrete diffusion models have shown they can match autoregressive models in perplexity and generation quality, with strong performance on complex reasoning and planning tasks, demonstrating their potential as competitive alternatives for natural language generation (Wang et al., 2025). Innovative approaches include directly adapting pretrained autoregressive language models into non-autoregressive diffusion models through continual fine-tuning, enabling efficient knowledge transfer between paradigms (Wang et al., 2025).
+Graph generation has benefited from several methodological advances that address core structural challenges. Graph VAE approaches sidestep linearization problems by outputting probabilistic fully-connected graphs of predefined maximum size directly (Wu et al., 2020). Discrete diffusion models have been extensively applied to graph generation, showing particular promise in downstream tasks like molecule generation (Huang et al., 2025). However, theoretical gaps remain in adapting flow-based and diffusion models to fully unordered data, with most current methods failing to properly consider permutation invariance (Li et al., 2025).
+Novel algorithmic frameworks have emerged that fundamentally differ from traditional generative approaches. GFlowNets offer a probabilistic approach specifically designed for generating structured objects like graphs, sampling according to predefined reward functions rather than approximating data distributions like VAEs and GANs (Li et al._1, 2025). Discrete flow matching extends continuous-time flow-based modeling to discrete settings through careful alignment of discrete probability distributions, broadening applicability to high-dimensional discrete domains such as language and code (Long et al., 2025).
+Recent theoretical advances address specific discrete modeling challenges:
+
+Posterior collapse mitigation: VQ-VAE architectures learn discrete representations while circumventing posterior collapse issues that plague traditional VAEs (Wu et al., 2020)
+Training stability: Advanced training procedures address simultaneous generator-discriminator optimization challenges that cause unstable training in discrete GANs (Wu et al., 2020)
+Set-based generation: Specialized approaches handle unordered data through point process adaptations, though fundamental differences from heat equation-based diffusion remain (Li et al., 2025)
+
+Despite progress, significant theoretical and practical limitations persist. Discrete diffusion models for language applications remain suboptimal compared to autoregressive generative models, indicating fundamental challenges in adapting continuous techniques (Rissanen et al., 2024). Flow-based and diffusion-based adaptations for discrete data remain understudied, with few comprehensive approaches addressing the unique requirements of discrete structured spaces (Li et al., 2025). The field continues to struggle with scalability for real-world applications: most graph methods work on small networks while applications in social network analysis and biological systems require handling millions to billions of nodes.
+Current approaches represent incremental advances rather than fundamental solutions to the core challenges identified earlier. While discrete diffusion shows promise for specific domains, the theoretical foundations for discrete spaces remain less mature than their continuous counterparts, particularly in handling permutation invariance and constraint satisfaction across different structured data types (Li et al., 2025) (Huang et al., 2025).
+
+## Evaluation Challenges and Metrics
+The evaluation of discrete generative models represents one of the most significant theoretical and practical open problems in the field. Unlike continuous domains where established metrics exist, evaluating generative tasks has been a notoriously challenging problem in machine learning, particularly for discrete structured data (Du et al., 2023). The fundamental theoretical barrier stems from treating both generative models and target distributions as "black boxes" where closed-form probability expressions are unavailable, ruling out traditional proper losses like ℓ2 loss or log loss that require explicit probability computations (Frongillo et al., 2022).
+Current evaluation frameworks suffer from the absence of comprehensive metrics that capture all essential dimensions simultaneously. The utility and fidelity evaluation requires assessing sample quality, sample diversity, and generalization capability, but no proposed metric captures all these dimensions effectively (Seiler et al., 2024). Sample quality refers to how well the generative model approximates the unknown data-generating distribution, sample diversity measures the coverage of the data-generating distribution, and generalization evaluates the model's ability to extend beyond training data (Seiler et al., 2024). The practical challenge manifests as different metrics focusing on different evaluation aspects without providing a unified assessment framework (Seiler et al., 2024).
+Likelihood-based evaluation presents fundamental computational and theoretical limitations across discrete domains. For many generative models, likelihood computation is often computationally infeasible, while for implicit generative models like GANs, likelihood is not even defined (Seiler et al., 2024). Even when likelihood can be computed, it serves as an implicit measure of diversity but does not necessarily correlate with sample quality, creating a disconnect between theoretical evaluation and practical performance (Seiler et al., 2024).
+Graph generation faces particularly acute evaluation challenges that impact real-world applications in social network analysis and molecular design. Defining quantitative assessment for graph generative models proves more challenging than for images and text, with scholars commonly relying on qualitative techniques that become impractical for large graphs (Mostofi et al., 2018). The practical limitation emerges as qualitative evaluation becomes very difficult for graphs, especially large networks, since individuals cannot easily judge graph quality unless the structures are fairly simple and planar (Mostofi et al., 2018).
+Key evaluation challenges in discrete generative modeling include:
+
+Black-box probability assignment: Inability to compute closed-form probabilities prevents use of traditional proper losses (Frongillo et al., 2022)
+Multi-dimensional assessment gaps: No single metric captures sample quality, diversity, and generalization simultaneously (Seiler et al., 2024)
+Likelihood intractability: Computational infeasibility or undefined likelihood for implicit models (Seiler et al., 2024)
+Domain-specific complexity: Graph structures require specialized evaluation approaches beyond standard distributional metrics (Mostofi et al., 2018)
+Scale-dependent evaluation: Qualitative assessment becomes impractical for large structured outputs (Mostofi et al., 2018)
+
+The field currently relies on heuristic approaches that provide incomplete assessment of model performance. Due to challenges in comparing distributions in high-dimensional discrete spaces, researchers use distance and divergence measures as evaluation heuristics, but these fail to provide comprehensive quality assessment (Seiler et al., 2024). The fundamental issue remains that developing metrics for generative modeling is not straightforward because of the ill-posed nature of the task - determining how good a sampled discrete instance is lacks direct and trivial assessment methods (Carvalho et al., 2023).
+These evaluation limitations have direct practical consequences for applications requiring reliable quality assessment, such as drug discovery where molecular validity must be precisely measured, or program synthesis where syntactic and semantic correctness need quantitative evaluation. The evaluation problem remains an active area of research with many proposed methods but no consensus on comprehensive evaluation frameworks for discrete structured data (Frongillo et al., 2022) (Carvalho et al., 2023).
+
+## Open Research Directions
+Theoretical foundations for discrete generative models remain underdeveloped, presenting multiple fundamental research opportunities. Diffusion-based generative models raise an array of open questions in terms of conceptual understanding, theoretical analysis, algorithm improvement and extensions to discrete, structured, non-Euclidean domains (Liu et al., 2022). Critical aspects such as the convergence properties of GFlowNet algorithms, their sample complexity, and robustness have seen limited investigation, with the intriguing phenomenon of implicit regularization often observed empirically but poorly understood (Yu, 2025). Developing learnable transformations for discrete data presents opportunities to advance discrete generative modeling, analogous to normalizing flows in the continuous domain, as invertible modeling in the discrete domain remains underexplored (Chao et al., 2025).
+Causal representation learning in deep generative models offers promising theoretical directions with significant practical implications. Current open challenges include scalable and robust causal discovery from observational data, identifiability of deep generative models under weaker forms of supervision, and the integration of diffusion models - a field that is currently under-explored but has tremendous growth potential for applications requiring distribution-shift robustness, fairness, and interpretability (Manduchi et al., 2024). The lack of benchmark datasets and metrics to evaluate counterfactual quality, along with strong assumptions that are often violated in real-world applications, represent key theoretical barriers (Manduchi et al., 2024).
+Key theoretical research directions include:
+
+Discrete diffusion theory: Developing rigorous mathematical foundations for forward processes and transition kernels in discrete spaces (Liu et al., 2022)
+Convergence analysis: Establishing sample complexity bounds and convergence guarantees for discrete generative algorithms (Yu, 2025)
+Invertible discrete transformations: Creating learnable, parameterized mappings that preserve structure while enabling gradient-based optimization (Chao et al., 2025)
+Inter-token dependency modeling: Developing efficient methods to capture joint distributions without conditional independence assumptions (Chao et al., 2025)
+Causal identifiability: Weakening supervision requirements for causal discovery in structured data generation (Manduchi et al., 2024)
+
+Practical research directions focus on scalability and real-world deployment challenges across critical applications. The development of more sophisticated generative models capable of capturing complex data relationships and distributions with greater fidelity remains essential for drug discovery, program synthesis, and other structured data applications (Papadaki et al., 2024). The integration of domain knowledge and expert insights into the synthetic data generation process is expected to enhance the realism and utility of generated datasets, with incorporating structural equation modeling or Bayesian networks to encode domain knowledge improving interpretability and fidelity for downstream applications such as predictive modeling and decision support systems (Papadaki et al., 2024).
+Computational efficiency and sampling improvements represent critical practical research areas. Latent energy-based models face critical limitations due to their reliance on MCMC sampling, with MCMC being inherently iterative and requiring repeated gradient evaluations, introducing significant computational overhead during both training and inference (Raj, 2025). Implementation barriers arise from the computational and resource-intensive nature of certain synthetic data generation techniques, with ensuring the scalability and efficiency of synthetic data generation pipelines to accommodate large-scale datasets and real-time data generation further complicating implementation efforts (Papadaki et al., 2024).
+Unified evaluation frameworks constitute a pivotal research direction bridging technical development and practical implementation. Establishing comprehensive evaluation frameworks for generative models across different discrete domains remains an open research area, particularly for ensuring semantic consistency across modalities and incorporating temporal information into generative models (Zhang et al., 2025). The interpretability and explainability of synthetic data generation techniques pose challenges in sectors where transparency and accountability are paramount, with understanding how synthetic data are generated and their implications for downstream decision-making processes crucial for building trust and confidence among end-users and stakeholders (Papadaki et al., 2024).
+Priority practical research directions include:
+
+Unified multimodal architectures: Integrating multiple generative functionalities within single frameworks for complex structured data (Zhang et al., 2025)
+Efficient sampling algorithms: Replacing MCMC with faster, more robust sampling methods for multimodal discrete distributions (Raj, 2025)
+Domain knowledge integration: Systematic approaches for incorporating expert insights and structural constraints into generation processes (Papadaki et al., 2024)
+Scalable training pipelines: Resource-efficient architectures that handle large-scale discrete datasets without computational bottlenecks (Papadaki et al., 2024)
+Interpretability frameworks: Methods for explaining generation decisions and assessing downstream impact in high-stakes applications (Papadaki et al., 2024)
+</response>
+
+<labeling 1a>
+
+<query>
+What are the open problems and challenges in the field of generative models that work over discrete and structured data?
+</query>
+
+<plan step>
+Add figures or pseudo-algorithms for clarity
+</plan step>
+
+<plan step category>
+Style: How the explanations in the response can be communicated
+</plan step category>
+
+<is_satisfied>
+false
+</is_satisfied>
+
+<explanation>
+The user rated this poorly because the model was unable to generate figures or pseudo-algorithms. They were not surprised by this failure, acknowledging it as a current system limitation. Thus, the system failed to execute part of the instructions in the plan step.
+</explanation>
+
+</labeling 1a>
+
+<labeling 1b>
+
+<query>
+What are the open problems and challenges in the field of generative models that work over discrete and structured data?
+</query>
+
+<plan step>
+Define open problems as theoretical and practical
+</plan step>
+
+<plan step category>
+Specificity: What information the response can include
+</plan step category>
+
+<is_satisfied>
+true
+</is_satisfied>
+
+<explanation>
+The user was very satisfied, stating it was 'pretty good' that the system correctly identified and distinguished between theoretical and practical open problems, providing good examples and citations. Thus, the system did not fail to complete this step.
+</explanation>
+
+</labeling 1b>
+
+<labeling 1c>
+
+<query>
+What are the open problems and challenges in the field of generative models that work over discrete and structured data?
+</query>
+
+<plan step>
+Exclude general background and focus on advanced material
+</plan step>
+
+<plan step category>
+Content: How the response can be clarified and narrowed in scope
+</plan step category>
+
+<is_satisfied>
+true
+</is_satisfied>
+
+<explanation>
+The user confirmed the system successfully focused on 'advanced material' and 'research level' topics, avoiding the general background as requested. Thus, the system did not fail to complete this step.
+</explanation>
+
+</labeling 1c>
+
+</example 1>

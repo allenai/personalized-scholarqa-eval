@@ -1,0 +1,5516 @@
+{
+  "40914545": {
+    "knowledge": [
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 1,
+          "num_unique_cites": 1,
+          "num_cites": 1,
+          "cite_relevance": [
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 1,
+          "num_unique_cites": 1,
+          "num_cites": 1,
+          "cite_relevance": [
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      }
+    ],
+    "research_style": [
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 1,
+          "num_unique_cites": 1,
+          "num_cites": 1,
+          "cite_relevance": [
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 1,
+          "num_unique_cites": 1,
+          "num_cites": 1,
+          "cite_relevance": [
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 1,
+          "num_unique_cites": 1,
+          "num_cites": 1,
+          "cite_relevance": [
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      }
+    ],
+    "writing_style": [
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 0,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 1,
+          "num_unique_cites": 1,
+          "num_cites": 1,
+          "cite_relevance": [
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      }
+    ],
+    "positions": [
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 3,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 1,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 1,
+          "num_unique_cites": 1,
+          "num_cites": 1,
+          "cite_relevance": [
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 3,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 1,
+          "num_unique_cites": 1,
+          "num_cites": 1,
+          "cite_relevance": [
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 1,
+          "num_unique_cites": 1,
+          "num_cites": 1,
+          "cite_relevance": [
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      }
+    ],
+    "audience": [
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 1,
+          "num_unique_cites": 1,
+          "num_cites": 1,
+          "cite_relevance": [
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "27640659": {
+    "knowledge": [
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 4,
+          "num_unique_cites": 5,
+          "num_cites": 5,
+          "cite_relevance": [
+            1,
+            1,
+            1,
+            1,
+            0
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 5,
+          "num_unique_cites": 5,
+          "num_cites": 5,
+          "cite_relevance": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 5,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 4,
+          "num_unique_cites": 4,
+          "num_cites": 4,
+          "cite_relevance": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 4,
+          "num_unique_cites": 4,
+          "num_cites": 4,
+          "cite_relevance": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      }
+    ],
+    "research_style": [
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 5,
+          "num_unique_cites": 5,
+          "num_cites": 5,
+          "cite_relevance": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 4,
+          "num_unique_cites": 4,
+          "num_cites": 4,
+          "cite_relevance": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 3,
+          "num_unique_cites": 3,
+          "num_cites": 3,
+          "cite_relevance": [
+            1,
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 3,
+          "num_unique_cites": 3,
+          "num_cites": 3,
+          "cite_relevance": [
+            1,
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 3,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      }
+    ],
+    "writing_style": [
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 3,
+          "num_unique_cites": 3,
+          "num_cites": 3,
+          "cite_relevance": [
+            1,
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 0,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 3,
+          "num_unique_cites": 3,
+          "num_cites": 3,
+          "cite_relevance": [
+            1,
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      }
+    ],
+    "positions": [
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 5,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 1,
+          "num_unique_cites": 1,
+          "num_cites": 1,
+          "cite_relevance": [
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      }
+    ],
+    "audience": [
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 3,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 3,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "4398255": {
+    "knowledge": [
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 1,
+          "num_unique_cites": 1,
+          "num_cites": 1,
+          "cite_relevance": [
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 1,
+          "num_unique_cites": 1,
+          "num_cites": 1,
+          "cite_relevance": [
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 1,
+          "num_unique_cites": 1,
+          "num_cites": 1,
+          "cite_relevance": [
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 5,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 1,
+          "num_unique_cites": 1,
+          "num_cites": 1,
+          "cite_relevance": [
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 1,
+          "num_unique_cites": 1,
+          "num_cites": 1,
+          "cite_relevance": [
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      }
+    ],
+    "research_style": [
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      }
+    ],
+    "writing_style": [
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 1,
+          "num_unique_cites": 1,
+          "num_cites": 1,
+          "cite_relevance": [
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 1,
+          "num_unique_cites": 1,
+          "num_cites": 1,
+          "cite_relevance": [
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      }
+    ],
+    "positions": [
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 5,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 1,
+          "num_unique_cites": 1,
+          "num_cites": 1,
+          "cite_relevance": [
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 5,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 1,
+          "num_unique_cites": 1,
+          "num_cites": 1,
+          "cite_relevance": [
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 1,
+          "num_unique_cites": 1,
+          "num_cites": 1,
+          "cite_relevance": [
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      }
+    ],
+    "audience": [
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 1,
+          "num_unique_cites": 1,
+          "num_cites": 1,
+          "cite_relevance": [
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      },
+      {
+        "metric": {
+          "source_accuracy": 1,
+          "category_accuracy": 1,
+          "specificity": 4,
+          "max_sim_all": null,
+          "max_sim_idx_all": null,
+          "max_sim_text_all": null,
+          "avg_sim_all": null,
+          "max_sim_cat": null,
+          "max_sim_idx_cat": null,
+          "max_sim_text_cat": null,
+          "avg_sim_cat": null,
+          "max_sim_across": null,
+          "max_sim_idx_across": null,
+          "max_sim_text_across": null,
+          "avg_sim_across": null,
+          "num_relevant_cites": 2,
+          "num_unique_cites": 2,
+          "num_cites": 2,
+          "cite_relevance": [
+            1,
+            1
+          ]
+        },
+        "atomic_metrics": [
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          },
+          {
+            "metric": {
+              "source_accuracy": null,
+              "category_accuracy": null,
+              "specificity": null,
+              "max_sim_all": null,
+              "max_sim_idx_all": null,
+              "max_sim_text_all": null,
+              "avg_sim_all": null,
+              "max_sim_cat": null,
+              "max_sim_idx_cat": null,
+              "max_sim_text_cat": null,
+              "avg_sim_cat": null,
+              "max_sim_across": null,
+              "max_sim_idx_across": null,
+              "max_sim_text_across": null,
+              "avg_sim_across": null,
+              "num_relevant_cites": null,
+              "num_unique_cites": null,
+              "num_cites": null,
+              "cite_relevance": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+.env
+.venv
+
+**/__pycache__/
+*.pyc
+
+data/local_datasets/paper_objects
+data/local_datasets/paper_objects.zip

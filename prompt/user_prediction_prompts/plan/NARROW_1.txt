@@ -1,0 +1,111 @@
+<example 1>
+<profile>
+## Knowledge
+- Your papers demonstrate expertise in applying graph-based neural networks to represent and predict properties of crystalline materials.
+- Your papers are familiar with generative and optimization algorithms for materials discovery, moving beyond simple screening. There are more advanced methods in the literature. But the advantage of the current work is that the researchers were able to synthesize new real materials based on this search.
+- Your papers show an understanding of topological data analysis, specifically persistent homology, as a method for feature engineering in materials science.
+- Your papers are knowledgeable about the specific challenges and methodologies of density functional theory (DFT) calculations for materials properties.
+- Your papers seem less focused on the experimental synthesis details, often treating it as a final validation step rather than a central research component. Likely due to the inherent difficulty in creating superconductors.
+
+## Research Style
+- Your papers follow a multi-stage 'funnel' methodology, using low-cost, high-throughput computational methods to screen candidates before applying more expensive validation techniques.
+- Your papers emphasize creating novel, physically-motivated features to improve model performance, rather than solely relying on architectural innovations.
+- Your papers often directly compare the performance of newly proposed methods against established or state-of-the-art computational models.
+- Your papers heavily rely on data augmentation and synthetic data generation, particularly when training deep learning models on limited experimental data.
+- Your papers leverage existing, large-scale public databases as the foundation for training models and benchmarking results.
+
+## Writing Style
+- Your papers often use simplified 'toy models' to build reader intuition about a complex method before applying it to real, high-dimensional data.
+- Your papers' introductions are structured to identify a specific limitation in current ML approaches for materials science and then position the work as a direct solution.
+- Your papers provide highly detailed, step-by-step descriptions of the computational workflow and data preprocessing pipelines. The authors have typically made the data and the code available publicly to encourage reproducibility. 
+- Your papers use figures to visually represent entire computational workflows and conceptual frameworks, not just to show data plots.
+- Your papers tend to place complex mathematical formulas directly in the main text to formally define key physical quantities or model components.
+
+## Positions
+- Your papers argue that effective feature engineering is more critical for model performance on specialized scientific tasks than simply applying larger, more complex models.
+- Your papers advocate for using machine learning for true inverse design rather than just for accelerating forward property prediction.
+- One of the significant themes focused on is that machine learning models for materials science should be physically informed and interpretable, cautioning against the blind application of 'black box' methods.
+- Your papers assert that machine learning can effectively replace or bypass expensive intermediate DFT calculations in the materials discovery pipeline.
+- Your papers argue that pooling operations in GNNs must be carefully selected for specific material science problems, as standard choices can harm performance.
+
+## Audience
+- Your papers are written for computational materials scientists, assuming familiarity with domain-specific concepts while explaining the machine learning methods in more detail.
+- Your papers target researchers interested in high-throughput and automated materials discovery.
+- Your papers address an audience working on the fabrication and characterization of 2D materials.
+- Your papers speak to material science researchers looking for solving challenging scientific problems through the combined power of scientific computing and machine learning techniques. 
+- Your papers seem to be written for an academic audience focused on fundamental research rather than immediate commercial application.
+</profile>
+
+<labeling 1a>
+
+<query>
+How can topology improve the predictions of Graph Neural Networks in material science applications?
+</query>
+
+<plan step>
+Exclude non-GNN approaches.
+</plan step>
+
+<plan step category>
+Specificity: What information the response can include
+</plan step category>
+
+<is_satisfied>
+false
+</is_satisfied>
+
+<explanation>
+The user strongly disagreed with the original step, which was to exclude non-GNN approaches, as it would constrain the model's search too much. They wanted the system to explore novel methods beyond GNNs, so they edited the step to explicitly include them. Thus, the plan step would make the response too narrow.
+</explanation>
+
+</labeling 1a>
+
+<labeling 1b>
+
+<query>
+How can topology improve the predictions of Graph Neural Networks in material science applications?
+</query>
+
+<plan step>
+Include recent TDA advances for GNNs.
+</plan step>
+
+<plan step category>
+Content: How the response can be clarified and narrowed in scope
+</plan step category>
+
+<is_satisfied>
+true
+</is_satisfied>
+
+<explanation>
+The user selected this step, stating it was 'exactly the kind of context' they were looking for. Thus, this step was not overly specific.
+</explanation>
+
+</labeling 1b>
+
+<labeling 1c>
+
+<query>
+What do you think are some of the "undervalued" fields in scientific research now? These are fields that scientists are not heavily invested into when they probably should be.
+</query>
+
+<plan step>
+Add summary table showing synergy with your domain
+</plan step>
+
+<plan step category>
+Research Ideas: How the response can become actionable for users' research goals
+</plan step category>
+
+<is_satisfied>
+true
+</is_satisfied>
+
+<explanation>
+The user 'loved' the idea of this plan step and selected it. Thus, this step was not overly specific.
+</explanation>
+
+</labeling 1c>
+
+</example 1>

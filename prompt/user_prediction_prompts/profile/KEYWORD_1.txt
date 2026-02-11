@@ -1,0 +1,107 @@
+<example 1>
+<paper 1>
+Author: Murat Akpulat and Murat Ekinci
+Venue: Applied intelligence (Boston)
+Text: Anomaly detection in crowd scenes via cross trajectories
+</paper 1>
+<paper 2>
+Author: Murat Akpulat and M. Ekinci
+Venue: Frontiers of Information Technology & Electronic Engineering
+Title: Detecting interaction/complexity within crowd movements using braid entropy</paper 2>
+<paper 3>
+Author: Murat Akpulat and M. Ekinci
+Venue: Preprint
+Text: Defining Crowd Movement as Parabola and Classifying These Definitions
+
+Smart surveillance systems developed in recent years have made enormous contributions to providing safety and management of crowds. The aim of this study is to observe and try to understand how crowd movements presented in a video sequence show behaviour. For this end, the motion data at pixel level among the consecutive frames is obtained using optical flow initially. Then, this motion data is associated using the particle advection method and stable as well as moving areas in the image are obtained. After, the moving areas clustered using Mean-Shift method are described and classified as parabola, in addition to the studies in the literature. At the end of the study, the method developed was tested over UCF as well as Pets2009 datasets and the results are presented.
+
+The flow of the daily life, willingly or unwillingly, integrate people in crowds. Streets, shopping malls, political meetings, stadiums or concerts are centres where crowds are abundant. It is possible for a crowd in calm movement to become a crowd of people running in panic all of a sudden. Although this case would not last long, but it may cause stampede and may result in losses of lives. It is quite easy for a person with suspicious behaviour to disguise himself in the crowd. These are bad incidents that have a higher percentage of lethal possibility and realization. Humanity has already experienced such bad incidents. Such sorrowful incidents experienced have shown the need for making studies on the analysis of crowd behaviour. Different disciplines such as computer vision, sociology, and psychology have been doing research on this topic for many years. In this respect, researches such as estimating the density of the crowd and observing the flow by developing algorithms on images obtained from surveillance systems; noticing the generation of a dangerous crowd or predetermining the abnormal conditions in the crowd; managing the crowd in panic; designing the open public spaces; and tracking a suspicious person or people throughout a series of images; have been the primary topics of crowd behaviour analysis studies. Some images where there are crowd scenes are shown in Figure 1. Crowd analysis problems were tried to be solved by algorithms developed for object tracking in the first years (Object approach) but it was seen that tracking people in high density videos is fairly difficult and that this is a solution that needs burdensome and excessive calculations. In the following studies, it was tried to grasp the general features of the crowd rather than focusing on the people in the crowd as a whole (Holistic approach). Through the survey based publications in recent years, the topic has been handled with different issues such as determination of moving areas, crowd analysis, crowd behaviour, tracking of people, and determination of abnormal conditions. Methods that are used under these topics and success results obtained from these are being compared and evaluated. Moreover, there are studies from the perspective of different disciplines. Another important issue on the crowd analysis field is the tracking of a person or people in a crowd. It is a very difficult thing to keep a track of people in high density crowds. The main reasons are; I) the denser it gets, the less pixel representing the person there will be, and this makes tracking more difficult. II) It is difficult to differentiate people in crowds. III) There are psychological conditions having an influence on the change of people's direction. Problems such as tracking of a person or moving objects (vehicles in traffic) after being determined in the image during a series of images are specialized fields where academic studies deal with in private and create private algorithms (tracking algorithms). In such studies, problems are tried to be solved by an object based approach. [13][14] Estimation of density of a crowd is an important topic in terms of providing the safety and management of the crowd. It is crucial to make these analyses and these controls dynamically at places where there are crowds and crowds show variability, such as stadiums, concerts, and shopping malls. By this way, it will be possible to prevent potential condensations. These analyses are performed on a single image. Conditions such as few pixels per person, the perspective, cluttering, occlusion, and low resolution are important problems that these analyses should find a solution for. 
+
+Our target in this study is to obtain the moving areas in an image using optical flow method and defining the moving areas as a parabola. Moving areas that are defined as equation will give us information about how the crowd behaves. We believe that the results that are obtained from these studies will help us understand and define the behaviour of the crowd in the preceding steps. At the end of the study, the developed method was presented as ground truth by being tested on the images from UCF and Pets2009 database.Some methods that were used in order to obtain some characteristics of the crowd and to observe how the crowd moves clearly will be explained in a priority order.This is a method used in order to obtain movement data in a video. In this method, the direction and the speed of object movements in consequent frames at pixel level can be obtained. This method is usually used for obtaining the movement data at lower speeds and at high density. It is seen that the method proves to return better results in videos with these qualifications. [15][16][17] [18] When we take the prerequisite that the light source does not change in time and that the change is not more than 1 pixel (in relocations more than 1 pixel, the pyramid method is recommended but this is not included in this article) into consideration, we can have this equation, provided that the pixel at (x,y) location in t time can relocate as much as (dx,dy) in t+1 time period. 
+
+When the process is proceeded using Taylor series; (2) 
+
+The general formula of the optical flow is obtained. (Ix = I/x, Iy = ∂I/ ∂y, It = ∂I/ ∂t, u = dx/dt, v = dy/dt). 
+
+In equation ( 3) that is obtained as the movement data of a single pixel, there are known values such as lx, ly, and lt values but also unknown values such as u and v values. The aim of the optical flow is to find the u and v values. At this level, a solution was developed benefiting from the method developed by Lucas-Kanade for optical flow. Lucas-Kanade calculated the velocity of a pixel taking into consideration of the fact that a pixel moves at the same velocity with neighbouring pixels. That is to say, when calculating the movement of a pixel that has a 3x3 neighbouring scheme, we obtain 9 equations in order to find the two unknowns of u and v in equation (3), thinking that all the neighbouring pixels move at the same velocity. 
+
+[ 
+
+The neighbouring window chosen as 3x3 in the sample can be chosen at different sizes depending on the condition of the problem. 
+
+While preferring a smaller size of window value can help us obtain the details in an image, these details might lead to image confusion and the load of the system might increase. Moreover, it may also lead to the loss of general flow data of the video. On the other hand, a larger sized neighbouring window can capture the movements at larger scale and helps us obtain the general flow of the movement, yet the bottlenecks or small movements might not be noticed. There is a trade off in question. Therefore, the size of the neighbouring window is another problem to think about. When the equation ( 4) is solved using minimum least squares method:There are four basic steps to be taken in obtaining optical flow using Lucas-Kanade method.Noise reduction is applied in frames.  Ix, Iy, and It are calculated.u and v values are found by calculating the equation ( 5).Due to the fact that optical flow values are independent from each other and that they might show differences from the general flow, the resulting values (u,v) are applied a median filter.Optical flow provides the data related to where a pixel will be heading to on the next frame. Particle Advection, on the other hand, is a method used in order to observe (understand) how a pixel moves throughout the video. [19][20] [21] At this level, particles that are located on every pixel in the first frame of the video are being directed by the time domain pixel level 3D movement data that is obtained by optical flow. At the end of the process, the time domain 3D optical flow data is obtained as 2D movement data. This process is called particle advection and the distance covered by each particle is called particle trajectories. A grid is located on 1th frame in video sequence, namely each pixel in the first frame and the particles are moved according to optical flow data. Ideally, a grid is made up as N=Width X Height. Particle advection can be formulized according to notation expressed above. 
+
+x i (t + 1) = x i (t) + u[x i (t), y i (t)] (6) y i (t + 1) = y i (t) + v[x i (t), y i (t)] (7)Differentiating multiple actions on an image from each other successfully is directly related to the success of the cluster process. The particles animated with the help of Particle advection process infact carry the motion data and at the end of the process particles representing any action gathers at a cluster point. It is expected from the system to differentiate these clusters from each other. We can think that each cluster represents an action. In this study, we tried to obtain clusters using mean-shift method. [28][29] Some places on the image might not move and therefore the particles on these pixels do not move. In this case, particles not moving or moving at a value lower than the threshold value and clusters emerged under a definite number of particles are accepted as noise and they are not included in the evaluation. By this way, only clusters that have the capability to represent motion or define a significant motion can be obtained.In this step, the moving areas in the image will be defined as parabola. In this way, these results will be helpful in terms of determining moving areas and understanding the crowd behaviour. 
+
+Determining as moving parabola can be as follows; particles representing an action or behaviour move as a group with particle advection. This information can be expressed as a curve using least squares method according to the location of each particle has along the motion.For this study, when we express each movement as a quadratic equation, it can be said that proximity to coefficient $a$ (8th equation) shows whether this movement is a line or circular movement.As a result, this study is a preliminary study that can make it possible to achieve targets like understanding and defining the behaviour of a crowd during a series of images. Initially, moving areas are obtained through optical flow method and then these moving areas are defined as the movement of particles through particle advection method. Particles clustering at a point on the image are marked with mean-shift method and behaviour at different types are determined. The movement is represented through a quadratic equation according to the location of particles in each cluster. In the end, it is possible to achieve the information on what kind of route the co-efficient of these equations follows. 
+</paper 3>
+<paper 4>
+Author: Ramin Mehran and Alexis Oyama and M. Shah
+Venue: 2009 IEEE Conference on Computer Vision and Pattern Recognition
+Title: Abnormal crowd behavior detection using social force model</paper 4>
+<paper 5>
+Author: Saad Ali and M. Shah
+Venue: 2007 IEEE Conference on Computer Vision and Pattern Recognition
+Title: A Lagrangian Particle Dynamics Approach for Crowd Flow Segmentation and Stability Analysis</paper 5>
+
+<labeling 1a>
+
+<profile inference>
+Your papers focus more on classical computer vision algorithms like Lucas-Kanade optical flow than on contemporary end-to-end deep learning architectures. [3, 1]
+</profile inference>
+
+<profile inference category>
+Knowledge: Knowledge captures what users know or do not know about their research domains and methods.
+</profile inference category>
+
+<is_satisfied>
+false
+</is_satisfied>
+
+<explanation>
+The user stated that the inference was correct but incomplete. They wanted to add the crucial detail that they use classical algorithms like Lucas-Kanade specifically to extract feature vectors for their mathematical formulas, which they added in their edit. Thus, this inference does not include the correct technical content that describes the user's interests and preferences.
+</explanation>
+
+</labeling 1a>
+
+<labeling 1b>
+
+<profile inference>
+Your papers argue that modeling the intrinsic structure of motion patterns is more effective than relying on fixed spatial segmentations of a scene. [1, 2]
+</profile inference>
+
+<profile inference category>
+Positions: Positions reveals what users believe, argue, or advocate for in their field.
+</profile inference category>
+
+<is_satisfied>
+true
+</is_satisfied>
+
+<explanation>
+The user agreed this was a 'true' statement and a core concept of their work. They noted that it was a significant point and that one could 'talk a lot of things about that sentence.' Thus, this inference includes the correct technical content that describes the user's interests and preferences.
+</explanation>
+
+</labeling 1b>
+
+<labeling 1c>
+
+<profile inference>
+Your papers follow a consistent research pattern of proposing a novel feature extraction technique and then using it for a downstream classification or analysis task. [1, 3]
+</profile inference>
+
+<profile inference category>
+Research Style: Research Style reflects how users prefer to conduct research and approach problems.
+</profile inference category>
+
+<is_satisfied>
+true
+</is_satisfied>
+
+<explanation>
+The user explicitly agreed with this statement, calling it 'Great' and 'correct' and moved on without any edits. Thus, this inference includes the correct technical content that describes the user's interests and preferences.
+</explanation>
+
+</labeling 1c>
+
+</example 1>

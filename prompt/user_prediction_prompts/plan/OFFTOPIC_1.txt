@@ -1,0 +1,111 @@
+<example 1>
+<profile>
+## Knowledge
+- Your papers demonstrate knowledge of post-quantum security concepts, particularly focusing on Quantum Key Distribution (QKD) to secure IoT systems.
+- Your papers show a working knowledge of consortium blockchain platforms like Hyperledger, suggesting a focus on permissioned enterprise environments over public blockchains.
+- Your papers are familiar with Attribute-Based Encryption (ABE), particularly Ciphertext-Policy ABE (CP-ABE), as a preferred method for fine-grained access control.
+- Your papers indicate an understanding of how AI, particularly neural networks, can be applied for specific security tasks like intrusion detection and resilience against DDOS attacks within IoT networks.
+- Your papers focus more on applying and combining existing cryptographic schemes at a system level, rather than designing novel, low-level cryptographic primitives.
+
+## Research Style
+- Your papers consistently propose multi-layered architectural frameworks with an integration of blockchain technology as the primary solution to security and communication challenges.
+- Your papers rely on simulation-based evaluations to measure and validate the performance of proposed systems.
+- Your papers often use a comparative analysis approach, benchmarking a proposed solution against a few specific, named existing schemes on quantitative metrics.
+- Your papers' research questions are primarily solution-oriented, focusing on how a combination of technologies can solve a pre-defined problem.
+- Some of Your papers include comprehensive literature reviews and survey-style work, suggesting a research style that values mapping the state of the art.
+
+## Writing Style
+- Your papers frequently use bulleted or numbered lists to structure and emphasize key objectives, contributions, or technical components.
+- Your papers adopt a didactic approach, often beginning sections with foundational definitions of key technologies before discussing their application.
+- Your papers are written with a consistently optimistic and forward-looking tone, emphasizing the transformative potential of the technologies discussed.
+- Your papers structure their motivation by first extensively detailing the failures of centralized architectures before introducing decentralized solutions.
+- Your papers' writing is characterized by a high density of acronyms, assuming a specialized audience that is comfortable with this shorthand.
+
+## Positions
+- Your papers argue that centralized system architectures are fundamentally inadequate for the demands of modern IoT ecosystems.
+- Your papers assert that the primary value of blockchain in IoT is to serve as a foundational, decentralized layer for trust and data integrity.
+- Your papers advocate for the synergistic combination of blockchain and Post Quantum Cryptography as a uniquely powerful approach to securing IoT.
+- Your papers maintain that achieving low computational and storage overhead is a critical factor for the practical adoption of proposed security schemes.
+- Your papers take the position that IoT security must be forward-looking, anticipating future threats from technologies like quantum computing.
+
+## Audience
+- Your papers appear to be written for applied security researchers who focus on system building, rather than for theoretical cryptographers.
+- Your papers target practitioners and researchers in specific, non-computer science domains like healthcare and education.
+- Your papers included detailed architectural diagrams to make them more research oriented for publication rather than practical developer/architects guides.
+- Your papers also seem to cater to newcomers or students in the field, as evidenced by the inclusion of survey papers and foundational explanations.
+- Your papers do not appear to target policymakers or ethicists, as they focus heavily on technical implementation and lack discussion on regulation, governance, or broader societal impact.
+</profile>
+
+<labeling 1a>
+
+<query>
+How can generative AI techniques be used to automate the creation of digital forensic evidence synthesis and reconstruction?
+</query>
+
+<plan step>
+Propose blockchain-AI forensic layers
+</plan step>
+
+<plan step category>
+Research Ideas: How the response can become actionable for users' research goals
+</plan step category>
+
+<is_satisfied>
+false
+</is_satisfied>
+
+<explanation>
+The user deselected this step because their query asked 'how' the automation of digital forensics could be done, and they were looking for an explanation, not a 'proposal' for a new system. Thus, the plan step was too off topic for the user's query.
+</explanation>
+
+</labeling 1a>
+
+<labeling 1b>
+
+<query>
+How can blockchain scalability be improved for resource-constrained IoT devices while keeping security intact?
+</query>
+
+<plan step>
+Search real-world IoT blockchain case studies.
+</plan step>
+
+<plan step category>
+Research Ideas: How the response can become actionable for users' research goals
+</plan step category>
+
+<is_satisfied>
+true
+</is_satisfied>
+
+<explanation>
+The user selected this step, likely because real-world examples are relevant to a practical question about improving technology. Thus, the plan step was relevant for the user's query.
+</explanation>
+
+</labeling 1b>
+
+<labeling 1c>
+
+<query>
+How can blockchain scalability be improved for resource-constrained IoT devices while keeping security intact?
+</query>
+
+<plan step>
+Refine scalability for resource-constrained IoT.
+</plan step>
+
+<plan step category>
+Specificity: What information the response can include
+</plan step category>
+
+<is_satisfied>
+true
+</is_satisfied>
+
+<explanation>
+The user selected this step as it directly addressed the central theme of their query. Thus, the plan step was relevant for the user's query.
+</explanation>
+
+</labeling 1c>
+
+</example 1>

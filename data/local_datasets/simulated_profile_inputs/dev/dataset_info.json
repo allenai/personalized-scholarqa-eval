@@ -1,0 +1,49 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "query": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "query_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "high_similarity_author_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "high_similarity_author_papers": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "medium_similarity_author_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "medium_similarity_author_papers": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "low_similarity_author_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "low_similarity_author_papers": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}
