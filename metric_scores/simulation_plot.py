@@ -12,7 +12,7 @@ MODELS = [
 MODEL_NICKNAMES = [
     'GPT-4.1 Nano',
 ]
-SAVE_DIR = 'metric_scripts/figures/simulation_results.pdf' # where to save the figure
+SAVE_DIR = 'metric_scores/figures/simulation_results.pdf' # where to save the figure
 PREDICTION = 'pred_metric' # 'pred_metric' | 'pred_basic' (which eval run type to assess)
 EVAL_RUN_DIR = 'evaluation/eval_runs/simulation_eval/' # folder with the evaluation run
 
