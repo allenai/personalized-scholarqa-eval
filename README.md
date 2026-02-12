@@ -44,8 +44,8 @@ This repository was tested with **Python 3.12.8** and **pip 25.0**. To get start
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone <this-repo-url>
-cd my-scholarqa-evaluation
+git clone https://github.com/nbalepur/personalized-scholarqa-eval.git
+cd personalized-scholarqa-eval
 ```
 
 ### 2. Install all requirements
@@ -167,3 +167,17 @@ If you use this code or the Personalized ScholarQA evaluation framework in your 
 Coming soon!
 }
 ```
+
+## 📄 License
+
+This project is licensed under the Apache License 2.0. See the LICENSE file for details.
+
+## 📧 Contact
+
+This work was done during my wonderful internship at Ai2's Semantic Scholar team!
+
+If you encounter any issues that are easy to fix, we would appreciate it if you made a pull request. For any other concerns or questions about our paper, please reach out to:
+
+- Nishant Balepur, Intern (nishantbalepur@gmail.com)
+- Aakanksha Naik, Mentor (aakankshan@allenai.org)
+
