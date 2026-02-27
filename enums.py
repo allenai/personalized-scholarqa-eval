@@ -9,6 +9,10 @@ class ModelType(Enum):
     gemini = 'gemini' # Gemini
     litellm = 'litellm' # LiteLLM
 
+# model used for profile + plan evaluation
+EVALUATOR_MODEL = 'gemini-2.5-flash'
+EVALUATOR_MODEL_TYPE = ModelType.gemini
+
 class ConstitutionCategory(Enum):
     knowledge = 'knowledge'
     research_style = 'research_style'

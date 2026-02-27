@@ -1,6 +1,6 @@
 
 from .evaluator import ProfileEvaluator
-from enums import ModelType
+from enums import EVALUATOR_MODEL, EVALUATOR_MODEL_TYPE
 import os
 import argparse
 
@@ -49,11 +49,14 @@ def main():
 
   args = setup()
   ds_loader = DatasetLoader(ds_name=args.input_dir)
-  evaluator = ProfileEvaluator(judge_model_name='gemini-2.5-flash-preview-09-2025', judge_model_type=ModelType.gemini)
+  evaluator = ProfileEvaluator(judge_model_name=EVALUATOR_MODEL, judge_model_type=EVALUATOR_MODEL_TYPE)
 
-  constitutions, user_ids = ds_loader.load_constitution_outputs(output_dir=args.profile_dir, num_examples=args.limit)
+  model_name = args.model_name
+  profile_dir = f'{args.profile_dir}/{model_name}/'
+
+  constitutions, user_ids = ds_loader.load_constitution_outputs(output_dir=profile_dir, num_examples=args.limit)
   assert len(constitutions) == len(user_ids)
-  evaluator.evaluate(user_ids=user_ids, constitutions=constitutions, run_name=args.model_name, output_dir=args.output_dir + '/' + args.model_name)
+  evaluator.evaluate(user_ids=user_ids, constitutions=constitutions, run_name=model_name, output_dir=args.output_dir + '/' + args.model_name)
 
 if __name__ == '__main__':
   main()

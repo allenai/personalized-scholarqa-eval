@@ -2,7 +2,7 @@
 from .evaluator import PersonalizedPlanEvaluator
 from data.dataset_loader import DatasetLoader
 import os
-from enums import ModelType
+from enums import EVALUATOR_MODEL, EVALUATOR_MODEL_TYPE
 import argparse
 
 from dotenv import load_dotenv
@@ -54,7 +54,7 @@ def main():
   args = setup()
   model_name = args.model_name
 
-  evaluator = PersonalizedPlanEvaluator(judge_model_name='gemini-2.5-flash-preview-09-2025', judge_model_type=ModelType.gemini)
+  evaluator = PersonalizedPlanEvaluator(judge_model_name=EVALUATOR_MODEL, judge_model_type=EVALUATOR_MODEL_TYPE)
 
   profile_dir = args.profile_dir
   plan_dir = f'{args.plan_dir}/{model_name}/'

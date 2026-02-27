@@ -276,11 +276,8 @@ class PersonalizedPlanEvaluator:
     
     def evaluate(self, personalized_plans: list[Plan], normal_plans: list[Plan], constitutions: list[UserConstitution], queries: list[str], query_ids: list[str], user_ids: list[str]):
         metrics_query = self.score_comparison_batch_query(personalized_plans=personalized_plans, normal_plans=normal_plans, constitutions=constitutions, queries=queries)
-        print(metrics_query)
         metrics_personalized = self.score_comparison_batch_personalization(personalized_plans=personalized_plans, normal_plans=normal_plans, constitutions=constitutions, queries=queries)
-        print(metrics_personalized)
         metrics_category = self.score_category_batch(personalized_plans=personalized_plans, normal_plans=normal_plans, constitutions=constitutions, queries=queries)
-        print(metrics_category)
 
         keys = [(query_id, user_id) for query_id, user_id in zip(query_ids, user_ids)]
         return PlanEvalRun(metrics=dict(zip(keys, metrics_query))), PlanEvalRun(metrics=dict(zip(keys, metrics_personalized))), PlanEvalRun(metrics=dict(zip(keys, metrics_category)))
