@@ -165,8 +165,11 @@ Runs `evaluation.predict_user_data` and `metric_scores.simulation_plot` for the 
 If you use this code or the Personalized ScholarQA evaluation framework in your work, please cite:
 
 ```bibtex
-{
-Coming soon!
+@article{balepur2026language,
+  title={Language Models Don't Know What You Want: Evaluating Personalization in Deep Research Needs Real Users},
+  author={Balepur, Nishant and Hamada, Malachi and Kishore, Varsha and Feldman, Sergey and Singh, Amanpreet and Siangliulue, Pao and Chang, Joseph Chee and Choi, Eunsol and Boyd-Graber, Jordan Lee and Naik, Aakanksha},
+  journal={arXiv preprint arXiv:2603.16120},
+  year={2026}
 }
 ```
 
