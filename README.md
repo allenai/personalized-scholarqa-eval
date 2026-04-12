@@ -4,6 +4,8 @@ This repository contains the evaluation logic for MyScholarQA, our personalized 
 
 > **Language Models Don't Know What You Want: Evaluating Personalization in Deep Research Needs Real Users**
 
+![MyScholarQA](images/image.png)
+
 It implements pipelines for generating and evaluating *user profiles* (used interchangably with the word 'constitutions') and *personalized plans* (used interchangably with the word 'actions') to add extra information to users' Deep Research queries. We ran this evaluation with synthetic data and LLM-as-a-judge metrics to validate our system pre-deployment (§3). 
 
 Further, it houses the logic for using LLM judges to try and simulate real user data derived from our qualitative interviews
